@@ -1,0 +1,19 @@
+# PRODIGY_WD_001 #
+## Responsive Landing Page ##
+# PaperBoat Juice - Responsive Landing Page #
+PaperBoat Juice is a responsive landing page that showcases the brand's beverages, designed and built using HTML, CSS, and JavaScript.
+# Features #
+- A large image of a PaperBoat juice bottle alongside three smaller flavor variations.
+- When clicked, the flavor bottle changes its color and updates the main image accordingly.
+- The navbar has smooth scrolling and interactive hover effects, providing a dynamic user experience.
+# Technologies Used : #
+HTML<br/>
+CSS <br/>
+JavaScript
+# Video : #
+
+
+https://github.com/user-attachments/assets/c2c313f3-fc1f-4876-bfdd-7f72f30cfbe7
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="sec">
+    <header>
+        <nav id ="home">
+            <img class="logo" src="assets/paper_boat_logo.png" width=150 height=100>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#whatsnew">What's New</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="content">
+            <div class="txtbox">
+                <h2>That's What <br><span>A Sip of Nature's Best</span></h2>
+                <span class="para">
+                    Paper Boat is a brand of traditional Indian beverages and foods produced and marketed by Hector Beverages, which is headquartered in Bengaluru, India.It was launched by Hector Beverages in August 2014. It comprises traditional Indian drinks such as Aam Panna, Jaljeera and Aam Ras. The drinks were initially offered in single serving, flexible pouches, the company has since then expanded to one liter Tetra Pak cartons.</span>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imag">
+                <img src="assets/aamras.png" class="aamras">
+            </div>  
+        </div>
+        <ul class="juice">
+            <li><img src="assets/aamras.png" onclick="imgSlider('assets/aamras.png');changeBgColor('#F5F5DC')"></li>
+            <li><img src="assets/chilli_gauva.png" onclick="imgSlider('assets/chilli_gauva.png');changeBgColor('#E7F3CA')"></li>
+            <li><img src="assets/anar.png" onclick="imgSlider('assets/anar.png');changeBgColor('#F1BADA')"></li>
+        </ul>
+    </section class="navs">
+    <br>
+    <div id="Products">
+        <h1>Products</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <button onclick="location.href='#home';">Go Back to Home</button>
+    </div>
+    <div id="whatsnew">
+        <h1>What's new</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <button onclick="location.href='#home';">Go Back to Home</button>
+    </div>
+    <div id="newsletter">
+        <h1>Newsletter</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <button onclick="location.href='#home';">Go Back to Home</button>
+    </div>
+    <div id="contact">
+        <h1>Contact Us</h1>
+        <div class="row">
+            <div class="col">
+                <img src="assets/maps-and-flags.png" width=40px>
+                <span>Mumbai, Maharashtra</span>
+            </div>
+            <div class="col">
+                <img src="assets/telephone.png" width=40px>
+                <span>Telephone: +91-990 * * * * * * *</span>
+            </div>
+            <div class="col">
+                <img src="assets/mail.png" width=40px>
+                <span>abc@paperboat.org</span>
+            </div>
+        </div>
+    </div>    
+        <footer class="copright">
+            <span>© 2024 Kandivali East | India </span>
+        </footer>
+    </section>
+        <script src="js/script.js"></script>    
+</body>
+</html>
